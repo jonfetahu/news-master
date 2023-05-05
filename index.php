@@ -87,11 +87,7 @@
                                         <li><a href="about.php">about</a></li>
                                         <li><a href="categori.php">Category</a></li>
                                         <li><a href="latest_news.php">Latest News</a></li>
-                                            <ul class="submenu">
-                                                <li><a href="blog.php">Blog</a></li>
-                                                <li><a href="blog_details.php">Blog Details</a></li>
-                                                <li><a href="elements.php">Element</a></li>
-                                            </ul>
+
                                         </li>
                                         <li><a href="contact.php">Contact</a></li>
                                     </ul>
