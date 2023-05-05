@@ -768,37 +768,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4>Popular post</h4>
-                            </div>
-                            <!-- Popular post -->
-                            <div class="whats-right-single mb-20">
-                                <div class="whats-right-img">
-                                    <img src="assets/img/gallery/footer_post1.png" alt="">
-                                </div>
-                                <div class="whats-right-cap">
-                                    <h4><a href="latest_news.html">Scarlett’s disappointment at latest accolade</a></h4>
-                                    <p>Jhon  |  2 hours ago</p> 
-                                </div>
-                            </div>
-                            <!-- Popular post -->
-                            <div class="whats-right-single mb-20">
-                                <div class="whats-right-img">
-                                    <img src="assets/img/gallery/footer_post2.png" alt="">
-                                </div>
-                                <div class="whats-right-cap">
-                                    <h4><a href="latest_news.html">Scarlett’s disappointment at latest accolade</a></h4>
-                                    <p>Jhon  |  2 hours ago</p> 
-                                </div>
-                            </div>
-                            <!-- Popular post -->
-                            <div class="whats-right-single mb-20">
-                                <div class="whats-right-img">
-                                    <img src="assets/img/gallery/footer_post3.png" alt="">
-                                </div>
-                                <div class="whats-right-cap">
-                                    <h4><a href="latest_news.html">Scarlett’s disappointment at latest accolade</a></h4>
-                                    <p>Jhon  |  2 hours ago</p> 
-                                </div>
+                                
                             </div>
                         </div>
                     </div>

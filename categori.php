@@ -136,22 +136,7 @@
                                     <div class="section-tittle mb-30">
                                         <h3>Whats New</h3>
                                     </div>
-                                </div>
-                                <div class="col-xl-8 col-md-9">
-                                    <div class="properties__button">
-                                        <!--Nav Button  -->                                            
-                                        <nav>                                                 
-                                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Lifestyle</a>
-                                                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Travel</a>
-                                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Fashion</a>
-                                                <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab" aria-controls="nav-contact" aria-selected="false">Sports</a>
-                                                <a class="nav-item nav-link" id="nav-Sports" data-toggle="tab" href="#nav-nav-Sport" role="tab" aria-controls="nav-contact" aria-selected="false">Technology</a>
-                                            </div>
-                                        </nav>
-                                        <!--End Nav Button  -->
                                     </div>
-                                </div>
                             </div>
                             <!-- Tab content -->
                             <div class="row">
@@ -164,78 +149,76 @@
                                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                                     <div class="whats-news-single mb-40 mb-40">
                                                         <div class="whates-img">
-                                                            <img src="assets/img/gallery/whats_news_details1.png" alt="">
+                                                            <img src="apple.jpg" alt="">
                                                         </div>
                                                         <div class="whates-caption whates-caption2">
-                                                            <h4><a href="#">Secretart for Economic Air
-                                                                plane that looks like</a></h4>
-                                                            <span>by Alice cloe   -   Jun 19, 2020</span>
-                                                            <p>Struggling to sell one multi-million dollar home currently on the market won’t stop actress and singer Jennifer Lopez.</p>
+                                                            <h4><a href="#">Tremujori i parë i Apple shpëtohet nga shitja rekorde e iPhone-ëve</a></h4>
+                                                            <span>by Jon Feathu   -   May 04, 2023</span>
+                                                            <p>Apple publikoi rezultatet e tremujorit të saj fiskal dhe ato janë më të mira se sa prisnin analistët. Cupertino fitoi 94.8 miliardë dollarë të ardhura midis janarit dhe marsit 2023, 3 për qind më pak nga 97.2 miliardë dollarë të vitit të kaluar.
+
+.</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                                     <div class="whats-news-single mb-40 mb-40">
                                                         <div class="whates-img">
-                                                            <img src="assets/img/gallery/whats_news_details2.png" alt="">
+                                                            <img src="chatgpt.jpg" alt="">
                                                         </div>
                                                         <div class="whates-caption whates-caption2">
-                                                            <h4><a href="#">Secretart for Economic Air
-                                                                plane that looks like</a></h4>
-                                                            <span>by Alice cloe   -   Jun 19, 2020</span>
-                                                            <p>Struggling to sell one multi-million dollar home currently on the market won’t stop actress and singer Jennifer Lopez.</p>
+                                                            <h4><a href="#">Mbroni veten: Hakerët përdorin shërbime të rreme të ChatGPT-së për të përhapur viruse</a></h4>
+                                                            <span>by Erion Heqimi   -   April 14, 2023</span>
+                                                            <p>Hakerët kanë shfrytëzuar interesin e gjithë botës për ChatGPT, mjetin e fuqizuar nga inteligjenca artificiale në një përpjekje për të depërtuar në pajisjet e të tjerëve, zbuloi pronari i Facebook Meta në një raport sigurie të mërkurën, duke e barazuar fenomenin me rritjen e mashtrimeve me kriptomonedha.</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                                     <div class="whats-news-single mb-40 mb-40">
                                                         <div class="whates-img">
-                                                            <img src="assets/img/gallery/whats_news_details3.png" alt="">
+                                                            <img src="google.png" alt="">
                                                         </div>
                                                         <div class="whates-caption whates-caption2">
-                                                            <h4><a href="#">Secretart for Economic Air
-                                                                plane that looks like</a></h4>
-                                                            <span>by Alice cloe   -   Jun 19, 2020</span>
-                                                            <p>Struggling to sell one multi-million dollar home currently on the market won’t stop actress and singer Jennifer Lopez.</p>
+                                                            <h4><a href="#">Google lanson një alternativë ndaj fjalëkalimeve në aplikacionet e saj</a></h4>
+                                                            <span>by Arian Ndrecaj   -   March 19, 2023</span>
+                                                            <p>Ditët kur duhet të mendoni për fjalëkalime të reja që nuk janë me shifra e simbole si “pasword123” mund të marrin fund – të paktën në llogaritë tuaja në Google.</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                                     <div class="whats-news-single mb-40 mb-40">
                                                         <div class="whates-img">
-                                                            <img src="assets/img/gallery/whats_news_details4.png" alt="">
+                                                            <img src="Zuck.png" alt="">
                                                         </div>
                                                         <div class="whates-caption whates-caption2">
-                                                            <h4><a href="#">Secretart for Economic Air
-                                                                plane that looks like</a></h4>
-                                                            <span>by Alice cloe   -   Jun 19, 2020</span>
-                                                            <p>Struggling to sell one multi-million dollar home currently on the market won’t stop actress and singer Jennifer Lopez.</p>
+                                                            <h4><a href="#">Rregullatori amerikan akuzon Metan se nuk ka vendosur kontrollin e duhur prindëror tek përdoruesit e mitur/a></h4>
+                                                            <span>by Arian Ndrecaj   -   Jun 19, 2022</span>
+                                                            <p>Rregullatori më i lartë amerikan i privatësisë së të dhënave ka akuzuar Meta-n, kompania që zotëron Facebook-un dhe Instagram-in, se nuk ka vendosur kontrollin e duhur prindëror.</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                                     <div class="whats-news-single mb-40 mb-40">
                                                         <div class="whates-img">
-                                                            <img src="assets/img/gallery/whats_news_details5.png" alt="">
+                                                            <img src="tiktok.png" alt="">
                                                         </div>
                                                         <div class="whates-caption whates-caption2">
-                                                            <h4><a href="#">Secretart for Economic Air
-                                                                plane that looks like</a></h4>
-                                                            <span>by Alice cloe   -   Jun 19, 2020</span>
-                                                            <p>Struggling to sell one multi-million dollar home currently on the market won’t stop actress and singer Jennifer Lopez.</p>
+                                                            <h4><a href="#">Zyrtari në TikTok i ngarkuar për sigurinë e të dhënave amerikane po largohet nga kompania, mes presionit nga SHBA-ja për ta ndaluar aplikacionin</a></h4>
+                                                            <span>by Arian Ndrecaj   -   Jun 23, 2022</span>
+                                                            <p>Një nga zyrtarët më të lartë të TikTok-ut, i ngarkuar për të garantuar sigurinë e përdoruesve, po largohet nga kompania mes presionit në rritje nga qeveria amerikane për ta ndaluar aplikacionin e njohur për video..</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                                     <div class="whats-news-single mb-40 mb-40">
                                                         <div class="whates-img">
-                                                            <img src="assets/img/gallery/whats_news_details6.png" alt="">
+                                                            <img src="gmail.png" alt="">
                                                         </div>
                                                         <div class="whates-caption whates-caption2">
-                                                            <h4><a href="#">Secretart for Economic Air
-                                                                plane that looks like</a></h4>
-                                                            <span>by Alice cloe   -   Jun 19, 2020</span>
-                                                            <p>Struggling to sell one multi-million dollar home currently on the market won’t stop actress and singer Jennifer Lopez.</p>
+                                                            <h4><a href="#">Gmail po vjen gjithashtu me shenja blu verifikuese te përdoruesit e saj</a></h4>
+                                                            <span>by Arian Ndrecaj   -   Jun 19, 2022</span>
+                                                            <p>Si duket shenjat blu verifikuese po bëhen trend në rrjetet sociale.
+
+Gmail do të fillojë të vendosë një simbol blu pranë emrit të një dërguesi për të verifikuar identitetin e përdoruesit të atij e-mail, transmeton Telegrafi.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -630,37 +613,7 @@
         </div>
     </div>
     <!-- About US End -->
-    <!--Start pagination -->
-    <div class="pagination-area  gray-bg pb-45">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="single-wrap">
-                        <nav aria-label="Page navigation example">
-                            <ul class="pagination justify-content-start">
-                            <li class="page-item"><a class="page-link" href="#">
-                                <!-- SVG icon -->
-                                <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="15px">
-                                    <path fill-rule="evenodd"  fill="rgb(221, 221, 221)" d="M8.142,13.118 L6.973,14.135 L0.127,7.646 L0.127,6.623 L6.973,0.132 L8.087,1.153 L2.683,6.413 L23.309,6.413 L23.309,7.856 L2.683,7.856 L8.142,13.118 Z"/>
-                                    </svg>
-                            </span></a></li>
-                                <li class="page-item active"><a class="page-link" href="#">01</a></li>
-                                <li class="page-item"><a class="page-link" href="#">02</a></li>
-                                <li class="page-item"><a class="page-link" href="#">03</a></li>
-                            <li class="page-item"><a class="page-link" href="#">
-                                <!-- SVG iocn -->
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="15px">
-                                <path fill-rule="evenodd"  fill="rgb(255, 11, 11)" d="M31.112,13.118 L32.281,14.136 L39.127,7.646 L39.127,6.624 L32.281,0.132 L31.167,1.154 L36.571,6.413 L0.491,6.413 L0.491,7.857 L36.571,7.857 L31.112,13.118 Z"/>
-                                </svg>
-                            </span></a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End pagination  -->
+    
 </main>
 <footer>
     <!-- Footer Start-->
@@ -673,58 +626,18 @@
                             <div class="single-footer-caption mb-30">
                                 <!-- logo -->
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                    <a href="index.html"><img src="Ubtlogo1.png" width="100px" height="100px" alt=""></a>
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
-                                        <p class="info1">Lorem ipsum dolor sit amet, nsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                        <p class="info2">198 West 21th Street, Suite 721 New York,NY 10010</p>
-                                        <p class="info2">Phone: +95 (0) 123 456 789 Cell: +95 (0) 123 456 789</p>
+                                        <p class="info1">Lagjja Kalabria 10000 Pristina,Kosovo</p>
+                                        <p class="info2">Phone: 038 541 400 </p>
                                 </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Popular post</h4>
-                            </div>
-                            <!-- Popular post -->
-                            <div class="whats-right-single mb-20">
-                                <div class="whats-right-img">
-                                    <img src="assets/img/gallery/footer_post1.png" alt="">
-                                </div>
-                                <div class="whats-right-cap">
-                                    <h4><a href="details.html">Scarlett’s disappointment at latest accolade</a></h4>
-                                    <p>Jhon  |  2 hours ago</p> 
-                                </div>
-                            </div>
-                            <!-- Popular post -->
-                            <div class="whats-right-single mb-20">
-                                <div class="whats-right-img">
-                                    <img src="assets/img/gallery/footer_post2.png" alt="">
-                                </div>
-                                <div class="whats-right-cap">
-                                    <h4><a href="details.html">Scarlett’s disappointment at latest accolade</a></h4>
-                                    <p>Jhon  |  2 hours ago</p> 
-                                </div>
-                            </div>
-                            <!-- Popular post -->
-                            <div class="whats-right-single mb-20">
-                                <div class="whats-right-img">
-                                    <img src="assets/img/gallery/footer_post3.png" alt="">
-                                </div>
-                                <div class="whats-right-cap">
-                                    <h4><a href="details.html">Scarlett’s disappointment at latest accolade</a></h4>
-                                    <p>Jhon  |  2 hours ago</p> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
-                        <div class="single-footer-caption mb-50">
-                            <div class="banner">
+                    
                                 <img src="assets/img/gallery/body_card4.png" alt="">
                             </div>
                         </div>
