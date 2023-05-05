@@ -34,6 +34,21 @@
 		<input type="hidden" id="edit-ad-id" name="ad-id">
 		<button type="submit">Save Changes</button>
 	</form>
+
+  
+	 
+	 <form id="payment-form">
+		<h2>Payment</h2>
+		<label for="card-number">Card Number:</label>
+		<input type="text" id="card-number" name="card-number"><br>
+		<label for="expiration-date">Expiration Date:</label>
+		<input type="text" id="expiration-date" name="expiration-date"><br>
+		<label for="cvv">CVV:</label>
+		<input type="text" id="cvv" name="cvv"><br>
+		<input type="hidden" id="payment-ad-id" name="ad-id">
+		<button type="submit">Submit Payment</button>
+	</form>  
+
 		
   
 
