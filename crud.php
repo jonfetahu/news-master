@@ -20,10 +20,15 @@
         <h2 style="text-align: center; margin-left: -40px; font-family: sans-serif;">Llogaria ime</h2>
         <hr>
         <ul class="list-group" style="margin-top: 40px; margin-left: 50px; width: 500px;">
-  <li class="list-group-item"><span style="color: grey;">Emri: </span> Jon</li>
-  <li class="list-group-item"><span style="color: grey;">Mbiemri: </span> Fetahu</li>
-  <li class="list-group-item"><span style="color: grey;">Email: </span> jon@gmail.com</li>
-  <li class="list-group-item"><span style="color: grey;">Current Password: </span> 112233</li>
+  <li 
+  class="list-group-item"><span style="color: grey;">Emri: </span> Jon <button class="btn"><i class="fa fa-edit"></i> edit</button>
+</li> 
+  <li 
+  class="list-group-item"><span style="color: grey;">Mbiemri: </span> Fetahu <button class="btn2"><i class="fa fa-edit"></i> edit</button>
+</li>
+  <li
+   class="list-group-item"><span style="color: grey;">Email: </span> jon@gmail.com <button class="btn3"><i class="fa fa-edit"></i> edit</button>
+</li>
   <li class="list-group-item"><form onsubmit="return myfun()">
 <span style="color: grey;">Change Password </span><input type="password" id="passwords" value="">
 <span id="messages" style="color: red;"> </span><br><br>
@@ -31,8 +36,12 @@
 <span id="messagess"> </span><br><br>
 <input type="submit" value="Confirm" style="margin-top: 7px; width: 100px;">
 </form></li>
-  <li class="list-group-item"><span style="color: grey;">Ditelindja: </span>28.09.2002</li>
-  <li class="list-group-item"><span style="color: grey;">Adresa: </span>Drenas</li>
+  <li 
+  class="list-group-item"><span style="color: grey;">Ditelindja: </span>28.09.2002 <button class="btn4"><i class="fa fa-edit"></i> edit</button>
+</li>
+  <li 
+  class="list-group-item"><span style="color: grey;">Adresa: </span>Drenas <button class="btn5"><i class="fa fa-edit"></i> edit</button>
+</li>
 </ul>
       </div>
       <div class="col-sm-4">
@@ -72,3 +81,62 @@
 
 </body>
 </html>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 300px;
+}
+.btn2 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 250px;
+}
+
+.btn3 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 370px;
+}
+.btn4 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 370px;
+}
+.btn5 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 370px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+</style>
+
