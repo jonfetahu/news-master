@@ -87,11 +87,7 @@
                                         <li><a href="about.php">about</a></li>
                                         <li><a href="categori.php">Category</a></li>
                                         <li><a href="latest_news.php">Latest News</a></li>
-                                            <ul class="submenu">
-                                                <li><a href="blog.php">Blog</a></li>
-                                                <li><a href="blog_details.php">Blog Details</a></li>
-                                                <li><a href="elements.php">Element</a></li>
-                                            </ul>
+
                                         </li>
                                         <li><a href="contact.php">Contact</a></li>
                                     </ul>
@@ -768,7 +764,37 @@
                     <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                
+                                <h4>Popular post</h4>
+                            </div>
+                            <!-- Popular post -->
+                            <div class="whats-right-single mb-20">
+                                <div class="whats-right-img">
+                                    <img src="assets/img/gallery/footer_post1.png" alt="">
+                                </div>
+                                <div class="whats-right-cap">
+                                    <h4><a href="latest_news.html">Scarlett’s disappointment at latest accolade</a></h4>
+                                    <p>Jhon  |  2 hours ago</p> 
+                                </div>
+                            </div>
+                            <!-- Popular post -->
+                            <div class="whats-right-single mb-20">
+                                <div class="whats-right-img">
+                                    <img src="assets/img/gallery/footer_post2.png" alt="">
+                                </div>
+                                <div class="whats-right-cap">
+                                    <h4><a href="latest_news.html">Scarlett’s disappointment at latest accolade</a></h4>
+                                    <p>Jhon  |  2 hours ago</p> 
+                                </div>
+                            </div>
+                            <!-- Popular post -->
+                            <div class="whats-right-single mb-20">
+                                <div class="whats-right-img">
+                                    <img src="assets/img/gallery/footer_post3.png" alt="">
+                                </div>
+                                <div class="whats-right-cap">
+                                    <h4><a href="latest_news.html">Scarlett’s disappointment at latest accolade</a></h4>
+                                    <p>Jhon  |  2 hours ago</p> 
+                                </div>
                             </div>
                         </div>
                     </div>
