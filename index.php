@@ -101,6 +101,7 @@
                                     <li><a href="https://www.facebook.com/ubthighereducationinstitution/"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="https://www.instagram.com/ubt_official/"><i class="fab fa-instagram"></i></a></li>
                                     <li> <a href="https://www.youtube.com/@UBTPRISHTINA"><i class="fab fa-youtube"></i></a></li>
+                                    <li> <a href="crud.php"><img src="signin.png" width="35px" height="20px" alt=""></a></li>
                                 </ul>
                                 <!-- Search Nav -->
                                 <div class="nav-search search-switch">
@@ -108,6 +109,10 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- sign in -->
+                        <div class="signin-icon">
+                        <!-- <img src="signin.png" width="50px" height="50px" alt=""> -->
+                                </div>
                         <!-- Mobile Menu -->
                         <div class="col-12">
                             <div class="mobile_menu d-block d-md-none"></div>
