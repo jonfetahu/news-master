@@ -83,17 +83,17 @@
                             <div class="main-menu d-none d-md-block">
                                 <nav>                  
                                     <ul id="navigation">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">about</a></li>
-                                        <li><a href="categori.html">Category</a></li>
-                                        <li><a href="latest_news.html">Latest News</a></li>
+                                        <li><a href="index.php">Home</a></li>
+                                        <li><a href="about.php">about</a></li>
+                                        <li><a href="categori.php">Category</a></li>
+                                        <li><a href="latest_news.php">Latest News</a></li>
                                             <ul class="submenu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog_details.html">Blog Details</a></li>
-                                                <li><a href="elements.html">Element</a></li>
+                                                <li><a href="blog.php">Blog</a></li>
+                                                <li><a href="blog_details.php">Blog Details</a></li>
+                                                <li><a href="elements.php">Element</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
