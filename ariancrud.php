@@ -70,7 +70,7 @@
           </td>
           <tr>
           <td>Nisja e qendres me te madhe te shkences,teknologjise dhe inovacionit</td>
-          <td>UBT hap qendren e re me ambiemte shume te pershtatshme per student.
+          <td>UBT hap qendren e re me ambiemte shume te pershtatshme per student
         </td>
         <td>
             <form action="delete.php" method="POST">
