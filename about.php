@@ -49,10 +49,8 @@
                             <div class="header-info-left">
                                 <ul>     
                                     <li class="title"><span class="flaticon-energy"></span> University of Business and Technology</li>
-                                    
                                 </ul>
                             </div>
-                           
                         </div>
                     </div>
                 </div>
@@ -63,7 +61,7 @@
                         <!-- Logo -->
                         <div class="col-xl-3 col-lg-3 col-md-3 d-none d-md-block">
                             <div class="logo">
-                                <a href="index.html"><img src="Ubtlogo1.png" height="100px" width="100px" alt=""></a>
+                                <a href="index.html"><img src="Ubtlogo1.png" width="100px" height="100px" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-9 col-lg-9 col-md-9">
@@ -86,13 +84,17 @@
                             <div class="main-menu d-none d-md-block">
                                 <nav>                  
                                     <ul id="navigation">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">about</a></li>
-                                        <li><a href="categori.html">Category</a></li>
-                                        <li><a href="latest_news.html">Latest News</a></li>
-                                        
+                                        <li><a href="index.php">Home</a></li>
+                                        <li><a href="about.php">about</a></li>
+                                        <li><a href="categori.php">Category</a></li>
+                                        <li><a href="latest_news.php">Latest News</a></li>
+                                            <ul class="submenu">
+                                                <li><a href="blog.php">Blog</a></li>
+                                                <li><a href="blog_details.php">Blog Details</a></li>
+                                                <li><a href="elements.php">Element</a></li>
+                                            </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -102,8 +104,8 @@
                                 <!-- Heder social -->
                                 <ul class="header-social">    
                                     <li><a href="https://www.facebook.com/ubthighereducationinstitution/"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.instagram.com/ubt_official/?hl=en"><i class="fab fa-instagram"></i></a></li>
-                                    <li> <a href="https://www.youtube.com/channel/UCS76ozJN2tcsmQ8XG4KIruQ"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="https://www.instagram.com/ubt_official/"><i class="fab fa-instagram"></i></a></li>
+                                    <li> <a href="https://www.youtube.com/@UBTPRISHTINA"><i class="fab fa-youtube"></i></a></li>
                                 </ul>
                                 <!-- Search Nav -->
                                 <div class="nav-search search-switch">
