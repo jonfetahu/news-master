@@ -22,6 +22,19 @@
 	<!-- Table for displaying existing ads -->
 	<table id="ads-table">
 		
+	<form id="edit-ad-form">
+		<h2>Edit Ad</h2>
+		<label for="edit-title">Title:</label>
+		<input type="text" id="edit-title" name="title"><br>
+		<label for="edit-description">Description:</label>
+		<textarea id="edit-description" name="description"></textarea><br>
+		<label for="edit-price">Price:</label>
+		<input type="number" id="edit-price" name="price"><br>
+		<input type="hidden" id="edit-ad-id" name="ad-id">
+		<button type="submit">Save Changes</button>
+	</form>
+
+
 		
 		<tbody>
 			<!-- Ads will be added dynamically here -->
