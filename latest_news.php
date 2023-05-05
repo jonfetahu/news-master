@@ -87,12 +87,6 @@
                                         <li><a href="about.php">about</a></li>
                                         <li><a href="categori.php">Category</a></li>
                                         <li><a href="latest_news.php">Latest News</a></li>
-                                            <ul class="submenu">
-                                                <li><a href="blog.php">Blog</a></li>
-                                                <li><a href="blog_details.php">Blog Details</a></li>
-                                                <li><a href="elements.php">Element</a></li>
-                                            </ul>
-                                        </li>
                                         <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </nav>
@@ -132,43 +126,17 @@
                         <!-- Trending Tittle -->
                         <div class="about-right mb-90">
                             <div class="about-img">
-                                <img src="assets/img/trending/trending_top.jpg" alt="">
+                                <img src="ai.jpg" alt="">
                             </div>
                             <div class="heading-news mb-30 pt-30">
-                                <h3>Here come the moms in space</h3>
+                                <h3>Shefat ekzekutivë të Google, Microsoft, OpenAI dhe Anthropic u thirrën në një takim në Shtëpinë e Bardhër lidhur me Inteligjencën Artificiale</h3>
                             </div>
                             <div class="about-prea">
-                                <p class="about-pera1 mb-25">Moms are like…buttons? Moms are like glue. Moms are like pizza crusts. Moms are the ones who make sure things happen—from birth to school lunch.</p>
-                                <p class="about-pera1 mb-25">Moms are like…buttons? Moms are like glue. Moms are like pizza crusts. Moms are the ones who make sure things happen—from birth to school lunch.</p>
+                                <p class="about-pera1 mb-25">Shefat ekzekutivë të Google, Microsoft, OpenAI dhe Anthropic do të takohen me zëvendës-presidenten amerikane Kamala Harris dhe zyrtarë të lartë të administratës të enjten për të diskutuar mbi çështjet kryesore të Inteligjencës Artificiale (AI), tha një zyrtar i Shtëpisë së Bardhë.</p>
                                 <p class="about-pera1 mb-25">
-                                    My hero when I was a kid was my mom. Same for everyone I knew. Moms are untouchable. They’re elegant, smart, beautiful, kind…everything we want to be. At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top, makes me so proud of how far I’ve come, and so thankful for where I come from.
-                                    the refractor telescope uses a convex lens to focus the light on the eyepiece.
-                                    The reflector telescope has a concave lens which means it telescope sits on. The mount is the actual tripod and the wedge is the device that lets you attach the telescope to the mount.
-                                    Moms are like…buttons? Moms are like glue. Moms are like pizza crusts. Moms are the ones who make sure things happen—from birth to school lunch.</p>
+                                Ftesa që ishte siguruar nga Reuters për shefat ekzekutivë vuri në dukje “pritshmërinë e presidentit amerikan Joe Biden që kompanitë si të sigurohen përpara se t’i bëjnë ato të disponueshme për publikun”, transmeton Telegrafi.</p>
                             </div> 
-                            <div class="section-tittle mb-30 pt-30">
-                                <h3>Unordered list style?</h3>
-                            </div>
-                            <div class="about-prea">
-                                <p class="about-pera1 mb-25">Moms are like…buttons? Moms are like glue. Moms are like pizza crusts. Moms are the ones who make sure things happen—from birth to school lunch.</p>
-                                <p class="about-pera1 mb-25">Moms are like…buttons? Moms are like glue. Moms are like pizza crusts. Moms are the ones who make sure things happen—from birth to school lunch.</p>
-                                <p class="about-pera1 mb-25">
-                                    My hero when I was a kid was my mom. Same for everyone I knew. Moms are untouchable. They’re elegant, smart, beautiful, kind…everything we want to be. At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top, makes me so proud of how far I’ve come, and so thankful for where I come from.
-                                    the refractor telescope uses a convex lens to focus the light on the eyepiece.
-                                    The reflector telescope has a concave lens which means it telescope sits on. The mount is the actual tripod and the wedge is the device that lets you attach the telescope to the mount.
-                                    Moms are like…buttons? Moms are like glue. Moms are like pizza crusts. Moms are the ones who make sure things happen—from birth to school lunch.</p>
-                            </div>
-                            <div class="social-share pt-30">
-                                <div class="section-tittle">
-                                    <h3 class="mr-20">Share:</h3>
-                                    <ul>
-                                        <li><a href="#"><img src="assets/img/news/icon-ins.png" alt=""></a></li>
-                                        <li><a href="#"><img src="assets/img/news/icon-fb.png" alt=""></a></li>
-                                        <li><a href="#"><img src="assets/img/news/icon-tw.png" alt=""></a></li>
-                                        <li><a href="#"><img src="assets/img/news/icon-yo.png" alt=""></a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                           
                         </div>
                         <!-- From -->
                         <div class="row">
@@ -266,13 +234,12 @@
                             <div class="single-footer-caption mb-30">
                                 <!-- logo -->
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                    <a href="index.html"><img src="Ubtlogo1.png" width="100px" height="100px" alt=""></a>
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
-                                        <p class="info1">Lorem ipsum dolor sit amet, nsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                        <p class="info2">198 West 21th Street, Suite 721 New York,NY 10010</p>
-                                        <p class="info2">Phone: +95 (0) 123 456 789 Cell: +95 (0) 123 456 789</p>
+                                        <p class="info1">Lagjja Kalabria 10000 Pristina,Kosovo</p>
+                                        <p class="info2">Phone: 038 541 400</p>
                                 </div>
                                 </div>
                             </div>
@@ -280,45 +247,11 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7">
                         <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Popular post</h4>
-                            </div>
-                            <!-- Popular post -->
-                            <div class="whats-right-single mb-20">
-                                <div class="whats-right-img">
-                                    <img src="assets/img/gallery/footer_post1.png" alt="">
-                                </div>
-                                <div class="whats-right-cap">
-                                    <h4><a href="details.html">Scarlett’s disappointment at latest accolade</a></h4>
-                                    <p>Jhon  |  2 hours ago</p> 
-                                </div>
-                            </div>
-                            <!-- Popular post -->
-                            <div class="whats-right-single mb-20">
-                                <div class="whats-right-img">
-                                    <img src="assets/img/gallery/footer_post2.png" alt="">
-                                </div>
-                                <div class="whats-right-cap">
-                                    <h4><a href="details.html">Scarlett’s disappointment at latest accolade</a></h4>
-                                    <p>Jhon  |  2 hours ago</p> 
-                                </div>
-                            </div>
-                            <!-- Popular post -->
-                            <div class="whats-right-single mb-20">
-                                <div class="whats-right-img">
-                                    <img src="assets/img/gallery/footer_post3.png" alt="">
-                                </div>
-                                <div class="whats-right-cap">
-                                    <h4><a href="details.html">Scarlett’s disappointment at latest accolade</a></h4>
-                                    <p>Jhon  |  2 hours ago</p> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                            
                     <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
                         <div class="single-footer-caption mb-50">
                             <div class="banner">
-                                <img src="assets/img/gallery/body_card4.png" alt="">
+                                <img src="assets/img/gallery/body_card4.png" width="200px" height="100px" alt="">
                             </div>
                         </div>
                     </div>
