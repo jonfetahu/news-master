@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Joni E-Banking</title>
+	<title>crud user</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
@@ -34,8 +34,7 @@
 <span id="messages" style="color: red;"> </span><br><br>
 <span style="color: grey;">Confirm Password </span><input type="password" id="passwordss" value="">
 <span id="messagess"> </span><br><br>
-<input type="submit" value="Confirm" style="margin-top: 7px; width: 100px;">
-</form></li>
+<button class="btn6"><i class="fa fa-confirm"></i> Confirm</button>
   <li 
   class="list-group-item"><span style="color: grey;">Ditelindja: </span>28.09.2002 <button class="btn4"><i class="fa fa-edit"></i> edit</button>
 </li>
@@ -122,7 +121,7 @@
   padding: 12px 16px;
   font-size: 16px;
   cursor: pointer;
-  margin-left: 370px;
+  margin-left: 330px;
 }
 .btn5 {
   background-color: DodgerBlue;
@@ -131,7 +130,17 @@
   padding: 12px 16px;
   font-size: 16px;
   cursor: pointer;
-  margin-left: 370px;
+  margin-left: 330px;
+}
+.btn6 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 360px;
+  margin-bottom: 20px;
 }
 
 /* Darker background on mouse-over */
