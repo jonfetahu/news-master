@@ -1,132 +1,186 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ad Management System</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <title>Ad Managment System</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1>Ad Management System</h1>
+  <header>
+    <h1>Create New Ad</h1>
+  </header>
 
-	<!-- Form for creating a new ad -->
-	<form id="new-ad-form">
-		<h2>Create New Ad</h2>
-		<label for="title">Title:</label>
-		<input type="text" id="title" name="title"><br>
-		<label for="description">Description:</label>
-		<textarea id="description" name="description"></textarea><br>
-		<label for="price">Price:</label>
-		<input type="number" id="price" name="price"><br>
-		<button type="submit">Create Ad</button>
-	</form>
+  <div class="container">
+    <h2>Add New Post</h2>
+    <input type="file" accept="image/*" onchange="loadFile(event)">
+      <p><img id="output" width="200"/></p>
+      <script>
+          var loadFile = function(event) {
+              var image = document.getElementById('output');
+              image.src=URL.createObjectURL(event.target.files[0]);
+          };
+      </script>
 
-	<!-- Table for displaying existing ads -->
-	<table id="ads-table">
+    <form action="create.php" method="POST">
+      <div class="form-group">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+      </div>
 
-   
-	<form id="edit-ad-form">
-		<h2>Edit Ad</h2>
-		<label for="edit-title">Title:</label>
-		<input type="text" id="edit-title" name="title"><br>
-		<label for="edit-description">Description:</label>
-		<textarea id="edit-description" name="description"></textarea><br>
-		<label for="edit-price">Price:</label>
-		<input type="number" id="edit-price" name="price"><br>
-		<input type="hidden" id="edit-ad-id" name="ad-id">
-		<button type="submit">Save Changes</button>
-	</form>
-
-  
-	 
-	 <form id="payment-form">
-		<h2>Payment</h2>
-		<label for="card-number">Card Number:</label>
-		<input type="text" id="card-number" name="card-number"><br>
-		<label for="expiration-date">Expiration Date:</label>
-		<input type="text" id="expiration-date" name="expiration-date"><br>
-		<label for="cvv">CVV:</label>
-		<input type="text" id="cvv" name="cvv"><br>
-		<input type="hidden" id="payment-ad-id" name="ad-id">
-		<button type="submit">Submit Payment</button>
-	</form>  
-
+      <div class="form-group">
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" required></textarea>
+      </div>
+			<p>*The payment is in cash until we make it online!</p>
 		
-  
 
 
-		
-		<tbody>
-			<!-- Ads will be added dynamically here -->
-		</tbody>
-	</table>
 
-	
-	<script src="script.js"></script>
+      <div class="form-group">
+        <button type="submit" name="submit">Add Post</button>
+      </div>
+    </form>
+
+    <h2>Manage Posts</h2>
+
+    <table>
+      <thead>
+        <tr>
+				<th>Photo</th>
+          <th>Title</th>
+          <th>Content</th>
+          <th>Action</th>
+				
+
+					
+				
+        </tr>
+      </thead>
+      <tbody>
+        <?php
+          // PHP code to display all posts
+          // Use a loop to display all posts in the table
+        ?>
+        <tr>
+					
+				<td><img id="myImage1" src="intersport.jpg" alt="Image"></td>
+
+          <td>Intersport</td>
+          
+          <td>Intersport ofron zbritje verore deri ne -40% nga data 05/18/2023 deri me 06/06/2023.
+        </td>
+        
+          <td>
+            <form action="delete.php" method="POST">
+              <input type="hidden" name="id" value="1">
+              <button type="submit" name="submit">Delete</button>
+            </form>
+
+            <form action="delete.php" method="POST">
+              <input type="hidden" name="id" value="1">
+              <button type="submit" name="submit">Update</button>
+            </form>
+						
+          </td>
+          <tr>
+					<td><img id="myImage2" src="gjirafa1.png" alt="Image"></td>
+          <td>Gjirafa dhe rritja e saj si kompani!</td>
+          <td>Gjirafa është një nga kompanitë e teknologjisë me rritjen më të shpejtë në Evropën Qendrore dhe është ndërtuar për të qëndruar. Ne jemi të përqendruar te klientët, të orientuar drejt rezultateve dhe kemi standarde të larta të pamëshirshme. Misioni ynë përfundimtar është të ndërtojmë ekonominë e internetit në rajonin e CE.
+
+        </td>
+        <td>
+            <form action="delete.php" method="POST">
+              <input type="hidden" name="id" value="1">
+              <button type="submit" name="submit">Delete</button>
+            </form>
+            <form action="delete.php" method="POST">
+              <input type="hidden" name="id" value="1">
+              <button type="submit" name="submit">Update</button>
+            </form>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </body>
 </html>
 
+
 <style>
-body {
-	font-family: Arial, sans-serif;
+header {
+  background-color: RoyalBlue;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 h1 {
-	text-align: center;
-}
-
-h2 {
-	margin-top: 30px;
-}
-
-form {
-	margin-top: 20px;
-}
-
-label {
-	display: inline-block;
-	width: 100px;
-}
-
-input[type="text"], input[type="number"], textarea {
-	padding: 5px;
-	margin-bottom: 10px;
-}
-
-button {
-	padding: 5px;
-	background-color: #007bff;
-	color: #fff;
-	border: none;
-	border-radius: 3px;
-	cursor: pointer;
-}
-
-button:hover {
-	background-color: #0062cc;
+  margin: 0;
 }
 
 table {
-	margin-top: 30px;
-	border-collapse: collapse;
-	width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 th, td {
-	padding: 10px;
-	text-align: left;
-	border-bottom: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
 }
 
-th {
-	background-color: #007bff;
-	color: #fff;
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
 
-tr:hover {
-	background-color: #f5f5f5;
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="text"], textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color:  dodgerBlue;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: royalBlue;
+}
+#myImage2 {
+  width: 130px; /* Adjust the desired width */
+  height: 80px; /* Automatically adjust the height while maintaining the aspect ratio */
+}
+#myImage1 {
+  width: 120px; /* Adjust the desired width */
+  height: 90px; /* Automatically adjust the height while maintaining the aspect ratio */
+}
+
+
 </style>
-
-
-
-
-
