@@ -44,6 +44,7 @@
           <th>Title</th>
           <th>Content</th>
           <th>Action</th>
+          <th>Photo</th>
         </tr>
       </thead>
       <tbody>
@@ -55,7 +56,7 @@
           <td>UBT lancon "UBT Accelerator"</td>
           
           <td>Në Parkun Shkencor Inovativ të UBT-së u hap qendra e parë inovative në rajon “UBT Accelerator”, e cila do të jetë në shërbim të studentëve për zhvillimin e ideve kreative, inovative dhe krijimin e avantazheve teknologjike.
-        </td>
+       
         
           <td>
             <form action="delete.php" method="POST">
@@ -67,11 +68,11 @@
               <input type="hidden" name="id" value="1">
               <button type="submit" name="submit">Update</button>
             </form>
+            <td><img id="Photo1" src="ubt-780x439-1.jpg" alt=""></td> </td>
           </td>
           <tr>
           <td>Nisja e qendres me te madhe te shkences,teknologjise dhe inovacionit</td>
-          <td>UBT hap qendren e re me ambiemte shume te pershtatshme per student
-        </td>
+          <td>UBT hap qendren e re me ambiemte shume te pershtatshme per student</td>
         <td>
             <form action="delete.php" method="POST">
               <input type="hidden" name="id" value="1">
@@ -81,6 +82,7 @@
               <input type="hidden" name="id" value="1">
               <button type="submit" name="submit">Update</button>
             </form>
+            <td><img id="Photo2" src="https://www.ubt-uni.net/wp-content/uploads/2021/12/IMG_2065-Medium.jpg"   alt=""></td> </td>
           </td>
         </tr>
       </tbody>
@@ -92,10 +94,15 @@
 
 <style>
 header {
-  background-color: rebeccapurple;
+  /* background-color: dodgerblue;
   color: #fff;
   padding: 20px;
   text-align: center;
+  margin-left: 450px;
+  margin-right: 450px;
+  border-radius: 25px; */
+  text-align: center;
+
 }
 
 .container {
@@ -133,6 +140,7 @@ form {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+  
 }
 
 label {
@@ -147,7 +155,7 @@ input[type="text"], textarea {
 }
 
 button[type="submit"] {
-  background-color: #4CAF50;
+  background-color: dodgerblue;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -156,7 +164,16 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #3e8e41;
+  /* background-color: #3e8e41; */
 }
+#Photo1{
+  width: 100px;
+  height: 100px;
+}
+#Photo2{
+  width: 100px;
+  height: 100px;
+}
+
 
 </style>
