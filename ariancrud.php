@@ -6,11 +6,11 @@
 </head>
 <body>
   <header>
-    <h1>Add/Delete Post</h1>
+    <h1>Shto/Fshiej Postime</h1>
   </header>
 
   <div class="container">
-    <h2>Add New Post</h2>
+    <h2>Krijo post te ri</h2>
     <input type="file" accept="image/*" onchange="loadFile(event)">
       <p><img id="output" width="200"/></p>
       <script>
@@ -22,29 +22,29 @@
 
     <form action="create.php" method="POST">
       <div class="form-group">
-        <label for="title">Title:</label>
+        <label for="title">Titulli:</label>
         <input type="text" id="title" name="title" required>
       </div>
 
       <div class="form-group">
-        <label for="content">Content:</label>
+        <label for="content">Pershkrimi:</label>
         <textarea id="content" name="content" required></textarea>
       </div>
 
       <div class="form-group">
-        <button type="submit" name="submit">Add Post</button>
+        <button type="submit" name="submit">Shtoni postimin</button>
       </div>
     </form>
 
-    <h2>Manage Posts</h2>
+    <h2>Menagjo Postimet</h2>
 
     <table>
       <thead>
         <tr>
-          <th>Title</th>
-          <th>Content</th>
-          <th>Action</th>
-          <th>Photo</th>
+          <th>Titulli</th>
+          <th>Pershkrimi</th>
+          <th>Menagjimi</th>
+          <th>Foto</th>
         </tr>
       </thead>
       <tbody>
