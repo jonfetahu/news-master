@@ -6,11 +6,11 @@
 </head>
 <body>
   <header>
-    <h1>Create New Ad</h1>
+    <h1>Krijoni nje reklame</h1>
   </header>
 
   <div class="container">
-    <h2>Add New Post</h2>
+    <h2>Shtoni nje post</h2>
     <input type="file" accept="image/*" onchange="loadFile(event)">
       <p><img id="output" width="200"/></p>
       <script>
@@ -22,33 +22,33 @@
 
     <form action="create.php" method="POST">
       <div class="form-group">
-        <label for="title">Title:</label>
+        <label for="title">Titulli:</label>
         <input type="text" id="title" name="title" required>
       </div>
 
       <div class="form-group">
-        <label for="content">Content:</label>
+        <label for="content">Pershkrimi:</label>
         <textarea id="content" name="content" required></textarea>
       </div>
-			<p>*The payment is in cash until we make it online!</p>
+			<p>*Pagesa eshte cash deri sa e bejme online!</p>
 		
 
 
 
       <div class="form-group">
-        <button type="submit" name="submit">Add Post</button>
+        <button type="submit" name="submit">Perfundo</button>
       </div>
     </form>
 
-    <h2>Manage Posts</h2>
+    <h2>Menagjimi postimeve</h2>
 
     <table>
       <thead>
         <tr>
-				<th>Photo</th>
-          <th>Title</th>
-          <th>Content</th>
-          <th>Action</th>
+				<th>Foto</th>
+          <th>Titulli</th>
+          <th>Pershkrimi</th>
+          <th>Menagjimi</th>
 				
 
 					
@@ -72,12 +72,12 @@
           <td>
             <form action="delete.php" method="POST">
               <input type="hidden" name="id" value="1">
-              <button type="submit" name="submit">Delete</button>
+              <button type="submit" name="submit">Fshini</button>
             </form>
 
             <form action="delete.php" method="POST">
               <input type="hidden" name="id" value="1">
-              <button type="submit" name="submit">Update</button>
+              <button type="submit" name="submit">Permireso</button>
             </form>
 						
           </td>
@@ -90,11 +90,11 @@
         <td>
             <form action="delete.php" method="POST">
               <input type="hidden" name="id" value="1">
-              <button type="submit" name="submit">Delete</button>
+              <button type="submit" name="submit">Fshini</button>
             </form>
             <form action="delete.php" method="POST">
               <input type="hidden" name="id" value="1">
-              <button type="submit" name="submit">Update</button>
+              <button type="submit" name="submit">Permireso</button>
             </form>
           </td>
         </tr>
