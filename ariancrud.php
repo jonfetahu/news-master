@@ -24,6 +24,9 @@
       <div class="form-group">
         <label for="title">Title:</label>
         <input type="text" id="title" name="title" required>
+        <div class="container">
+          <div class="image">
+            <img src=""
       </div>
 
       <div class="form-group">
@@ -92,10 +95,13 @@
 
 <style>
 header {
-  background-color: rebeccapurple;
+  background-color: dodgerblue;
   color: #fff;
   padding: 20px;
   text-align: center;
+  margin-left: 450px;
+  margin-right: 450px;
+  border-radius: 25px;
 }
 
 .container {
@@ -133,6 +139,7 @@ form {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+  
 }
 
 label {
@@ -147,7 +154,7 @@ input[type="text"], textarea {
 }
 
 button[type="submit"] {
-  background-color: #4CAF50;
+  background-color: dodgerblue;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -156,7 +163,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #3e8e41;
+  /* background-color: #3e8e41; */
 }
 
 </style>
